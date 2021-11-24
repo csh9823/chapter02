@@ -65,7 +65,7 @@ public class Song {
 				+ year + ", track=" + track + ", getTitle()=" + getTitle() + ", getArtist()=" + getArtist()
 				+ ", getAlbum()=" + getAlbum() + ", getComposer()=" + getComposer() + ", getYear()=" + getYear()
 				+ ", getTrack()=" + getTrack() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ ", toString()=" + super.toString() + "]";
+				+ ", toString()="+"]";
 	}
 	
 	

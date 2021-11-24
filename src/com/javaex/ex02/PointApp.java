@@ -21,6 +21,12 @@ public class PointApp {
 		Point point3 = new Point(100);
 		point3.setY(101);
 		point3.show();
+		
+		
+		Point point4 = new Point(100,65);
+		point4.show(true);
+		point4.show(false);
+		point4.show();
 	}
 
 }

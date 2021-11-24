@@ -53,8 +53,21 @@ public void setY(int Y) {
 public int getY() {
 	return Y;
 }
-//메소드
+//일반 메소드
 public void show() {
-	System.out.println("점[x="+X+", y="+Y+"]을 그렸습니다.");
+	System.out.println("점[x="+this.getX()+", y="+Y+"]을 그렸습니다.");
 }
+
+//action=true 그리기 가능 , action=false 지우기 가능 같은 이름으로 여러게 쓸 수 있게해줌
+public void show(boolean action) {
+	if(action == true) {
+		System.out.println("점[x="+X+", y="+Y+"]을 그렸습니다.");
+	}else if(action == false){
+		System.out.println("점[x="+X+", y="+Y+"]을 지웠습니다.");
+	}else {
+		System.out.println("잘못된입력");
+	}
+}
+
+
 }
