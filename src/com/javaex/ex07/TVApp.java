@@ -3,11 +3,17 @@ package com.javaex.ex07;
 public class TVApp {
 
 	public static void main(String[] args) {
+		TV tv = new TV(7,20,false);
+		tv.status();
 		
-		TV ke = new TV(7 ,20, false);
 		
-		ke.on();
-		//필드
+		tv.power(true);
+		tv.volume(120);//100으로 거정
+		tv.status();
+		
+		
+		
+	
 		
 		
 		//생성자

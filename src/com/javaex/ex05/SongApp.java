@@ -37,6 +37,8 @@ public class SongApp {
 		//4개 생성자에 5줄 생성자를 불러와서 실행
 		Song s04 = new Song("소녀시대", "소녀시대", "소녀시대1집", "이문세");
 		s04.showInfo();
+		System.out.println("---------------------------------------");
+		s04.toString();
 				
 	}
 
