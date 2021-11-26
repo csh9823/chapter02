@@ -53,6 +53,10 @@ public class Goods {
 
 	// 메소드 일반
 	
+	public void show() {
+		System.out.println("상품명"+name);
+	}
+	
 	@Override
 	public String toString() {
 		return "Goods [name=" + name + ", price=" + price + ", totalCount=" + totalCount + "]";

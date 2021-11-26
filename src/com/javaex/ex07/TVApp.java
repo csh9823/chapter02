@@ -8,7 +8,7 @@ public class TVApp {
 		
 		
 		tv.power(true);
-		tv.volume(120);//100으로 거정
+		tv.volume(80);//100으로 거정
 		tv.status();
 		
 		
