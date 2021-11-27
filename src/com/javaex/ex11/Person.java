@@ -2,7 +2,7 @@ package com.javaex.ex11;
 
 public class Person { //protected 상속받은 애들이 쓸 수 있게해줌
 	protected  String name;
-	private int age;
+	protected int age;
 	
 	//생성자
 	public Person() {

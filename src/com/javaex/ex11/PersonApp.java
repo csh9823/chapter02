@@ -34,7 +34,9 @@ public class PersonApp {
 		Student s02 = new Student("서장훈",50,"강남고등학교");
 		//s02.name="황일영";
 		
-		s02.show();
+		
+		System.out.println(s02.toString());
+		s02.show(); // 같은 이름이면 자식꺼만 출력 부모꺼는 출력안됨
 		
 		
 		

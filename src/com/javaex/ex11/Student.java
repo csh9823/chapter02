@@ -50,10 +50,27 @@ public class Student extends Person{ //extends Person 부모를 가져온다
 	
 	
 	//메소드
+	public void show(){
+		
+		//super.show();
+		System.out.println("*************************************");
+		System.out.println("이름:" +super.name);
+		System.out.println("나이:" +super.age);
+		System.out.println("학교:" +this.schoolName);
+		
+		
+		System.out.println("*************************************");
+		System.out.println("");
+	}
+
+
 	@Override
 	public String toString() {
-		return "Student [schoolName=" + schoolName + "]";
+		return "Student [schoolName=" + schoolName + ", name=" + name + ", age=" + age + "]";
 	}
+	
+	
+	
 	
 	
 }
