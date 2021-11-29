@@ -17,7 +17,7 @@ public Point() {
 	}
 	
 	public Point(int X) {
-		this.X= X;
+		this.X=X;
 		System.out.println("Point(1)");
 	}
 	

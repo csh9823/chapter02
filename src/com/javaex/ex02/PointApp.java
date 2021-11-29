@@ -6,8 +6,7 @@ public class PointApp {
 		// 
 		Point point1 = new Point(3, 6);
 	
-		//point1.setX(5);
-		//point1.setY(5);
+		
 		point1.show();
 		
 		

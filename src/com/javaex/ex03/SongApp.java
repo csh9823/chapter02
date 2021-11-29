@@ -25,7 +25,8 @@ public class SongApp {
 		s2.setYear("2007");
 		s2.setTrack(2);
 		
-		System.out.println(s1.toString());
+		System.out.println(s2.toString());
+		s2.showInfo();
 	}
 
 }

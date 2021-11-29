@@ -18,7 +18,7 @@ public class SongApp {
 		//5개는 생성자 초기화 트랙번호는 세터로 초기화
 		Song s02 = new Song("거짓말", "BIGBANG", "Always", "G-DRAGON", "2007");
 		s02.setTrack(2);
-		
+		System.out.println(s02.toString()); 
 		//빅뱅 출력
 		
 		s02.showInfo();

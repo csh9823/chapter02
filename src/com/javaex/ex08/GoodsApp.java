@@ -12,6 +12,7 @@ public class GoodsApp {
 		Goods cup = new Goods();
 		cup.setName("머그컵");
 		cup.setPrice(2000);
+		cup.show();
 		System.out.println(cup.toString());
 		
 	}

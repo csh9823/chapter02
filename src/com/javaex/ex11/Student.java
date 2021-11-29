@@ -32,6 +32,7 @@ public class Student extends Person{ //extends Person 부모를 가져온다
 		//super.age = age;
 		this.schoolName = schoolName;
 		System.out.println("Student3");
+		
 	}
 
 	

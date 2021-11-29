@@ -55,6 +55,8 @@ public class Goods {
 	
 	public void show() {
 		System.out.println("상품명"+name);
+		System.out.println("상품명"+price);
+		System.out.println("토탈"+totalCount);
 	}
 	
 	@Override

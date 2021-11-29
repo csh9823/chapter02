@@ -17,19 +17,22 @@ public class PersonApp {
 		
 		p02.show();
 		*/
-		
+		System.out.println("-----------------");
 		Person p01 = new Person("정우성",45);
 		p01.show();
+		System.out.println("-----------------");
+		
 		//상속 받은 Student
 		Student	s01	=new Student();
 		s01.setName("강호동");
 		s01.setAge(55);
 		s01.setSchoolName("서울고등학교");
 		
+		System.out.println("-----------------");
 		System.out.println(s01.getAge());
 		System.out.println(s01.getName());
 		System.out.println(s01.getSchoolName());
-		
+		System.out.println("-----------------");
 		
 		Student s02 = new Student("서장훈",50,"강남고등학교");
 		//s02.name="황일영";
