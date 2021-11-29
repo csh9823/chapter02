@@ -66,9 +66,12 @@ public class Rectangle extends Shape{
 				+ fillColor + "]";
 	}
 	
+	
 	public void draw() {
-		System.out.println("선색 "+ super.lineColor + "면색 " + super.fillColor + "가로 "+ this.width + "세로 " + this.width + " 사각형을 그렸습니다.");
+		System.out.println("선색 "+ super.lineColor + "면색 " + super.fillColor + " 가로 "+ this.width + "세로 " + this.height + " 사각형을 그렸습니다.");
 	}
+	
+	
 	
 	
 }
