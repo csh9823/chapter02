@@ -1,4 +1,4 @@
-package com.javaex.ex14;
+package com.javaex.ex15;
 
 public class Shape {
 	//필드 //protected자식만 가져다 쓸 수 있음.
@@ -46,6 +46,8 @@ public class Shape {
 	public void draw() {
 		System.out.println("선색 "+ lineColor + "면색 " + fillColor + " 그렸습니다.");
 	}
+	
+	
 	@Override
 	public String toString() {
 		return "Shape [lineColor=" + lineColor + ", fillColor=" + fillColor + "]";
